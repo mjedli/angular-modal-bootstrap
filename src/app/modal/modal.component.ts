@@ -16,6 +16,7 @@ export class ModalComponent implements OnInit {
 
   closeModal() {
     console.log("close");
+    console.log("save title value : " + this.title);
     $("#exampleModalLive").modal("hide");
   }
 
