@@ -11,7 +11,7 @@ export class ModalComponent implements OnInit {
 
   @Input() title : String;
   @Input() idModal : String;
-   @Input() text : String;
+  @Input() text : String;
 
   ngOnInit() {
   }
