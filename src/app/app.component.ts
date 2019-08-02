@@ -10,7 +10,7 @@ export class AppComponent  {
   name = 'Angular';
   text = 'The text';
 
-  showModal(text:String) {
+  public showModal(text:String) {
     console.log(text);
     this.text = text;
   }
