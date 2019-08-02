@@ -7,7 +7,7 @@
 - modal html component declaration:
 
 ```javascript
-  <my-app-modal title="titre" idModal="idmodal" text="text to show">loading</my-app-modal>
+  <my-app-modal title="the modal title" idModal="idmodal" text="text to show">loading</my-app-modal>
 ```
 
 - the button:
