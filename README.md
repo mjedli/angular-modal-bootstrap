@@ -2,7 +2,7 @@
 
 [Edit on StackBlitz ⚡️](https://stackblitz.com/edit/angular-modal-bootstrap)
 
-# use
+## use
 
 - modal html component declaration:
 
