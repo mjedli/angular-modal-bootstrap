@@ -10,6 +10,8 @@ export class ModalComponent implements OnInit {
   constructor() { }
 
   @Input() title : String;
+  @Input() idModal : String;
+   @Input() text : String;
 
   ngOnInit() {
   }
@@ -17,7 +19,7 @@ export class ModalComponent implements OnInit {
   closeModal() {
     console.log("close");
     console.log("save title value : " + this.title);
-    $("#exampleModalLive").modal("hide");
+    $("#"+this.idModal).modal("hide");
   }
 
 }
