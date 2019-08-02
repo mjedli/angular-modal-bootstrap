@@ -13,9 +13,9 @@
 - the button:
 
 ```javascript
-  <div class="bd-example">
-    <button (click)="showModal(text)" type="button" class="btn btn-primary" data-toggle="modal" data-target="#idmodal">
+<div class="bd-example">
+<button (click)="showModal(text)" type="button" class="btn btn-primary" data-toggle="modal" data-target="#idmodal">
       Launch demo modal 1
-    </button>
-  </div>
+</button>
+</div>
 ```
