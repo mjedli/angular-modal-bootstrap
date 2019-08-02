@@ -19,12 +19,4 @@ export class ModalComponent implements OnInit {
     $("#exampleModalLive").modal("hide");
   }
 
-  showModal(text:String) {
-    console.log(text);
-  }
-
-  receiveMessage($event) {
-    this.title = $event
-  }
-
 }
