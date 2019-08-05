@@ -21,7 +21,7 @@ export class ModalComponent implements OnInit {
   ngOnInit() {
   }
 
-  closeModal(idmodal:String) {
+  saveChangeModal(idmodal:String) {
 
     console.log("close" + " : " + idmodal);
 
