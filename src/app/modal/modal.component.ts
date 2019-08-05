@@ -29,9 +29,7 @@ export class ModalComponent implements OnInit {
       console.log("save title value : " + this.title);
       this.appService.saveText(this.title);
     }
-
-    $("#"+this.modalId).modal("hide");
-
+    
   }
 
 }
