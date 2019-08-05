@@ -18,11 +18,16 @@ export class ModalComponent implements OnInit {
   ngOnInit() {
   }
 
-  closeModal() {
-    console.log("close");
-    console.log("save title value : " + this.title);
-    this.appService.saveText(this.title);
+  closeModal(idmodal:String) {
+
+    if(idmodal == "exampleModalLive1") {
+      console.log("close");
+      console.log("save title value : " + this.title);
+      this.appService.saveText(this.title + "test" + idmodal);
+    }
+
     $("#"+this.idModal).modal("hide");
+    
   }
 
 }
