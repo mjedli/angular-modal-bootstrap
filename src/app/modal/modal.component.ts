@@ -27,7 +27,12 @@ export class ModalComponent implements OnInit {
 
     if(idmodal == "exampleModalLive1") {
       console.log("save title value : " + this.title);
-      this.appService.saveText(this.title);
+      this.appService.saveTitle(this.title);
+    }
+
+    if(idmodal == "exampleModalLive2") {
+      console.log("save text value : " + this.text);
+      this.appService.saveText(this.text);
     }
     
   }
