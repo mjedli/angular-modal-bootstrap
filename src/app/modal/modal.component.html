@@ -1,5 +1,5 @@
 <!-- Modal -->
-<div id="{{idModal}}" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="exampleModalLiveLabel" style="display: none;" aria-hidden="true">
+<div id="{{modalId}}" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="exampleModalLiveLabel" style="display: none;" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -14,7 +14,7 @@
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button (click)="closeModal(idModal)" type="button" class="btn btn-primary" onclick="">Save changes</button>
+        <button (click)="closeModal(modalId)" type="button" class="btn btn-primary" onclick="">Save changes</button>
       </div>
     </div>
   </div>

@@ -12,7 +12,7 @@ export class ModalComponent implements OnInit {
   constructor(public appService : AppService) { }
 
   @Input() title : String;
-  @Input() idModal : String;
+  @Input() modalId : String;
   @Input() text : String;
 
   ngOnInit() {
@@ -27,7 +27,7 @@ export class ModalComponent implements OnInit {
       this.appService.saveText(this.title);
     }
 
-    $("#"+this.idModal).modal("hide");
+    $("#"+this.modalId).modal("hide");
 
   }
 
