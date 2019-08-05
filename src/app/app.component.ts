@@ -7,11 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent  {
   
-  name = 'Angular';
-  text = 'The text';
+  name:String = 'Angular';
+  text:String = 'The text';
 
   public showModal(text:String) {
-    console.log("showModal : the text value to input" : text);
+    console.log("showModal : the text value to input : " + text);
     this.text = text;
   }
 
