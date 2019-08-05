@@ -20,14 +20,15 @@ export class ModalComponent implements OnInit {
 
   closeModal(idmodal:String) {
 
+    console.log("close" + " : " + idmodal);
+
     if(idmodal == "exampleModalLive1") {
-      console.log("close");
       console.log("save title value : " + this.title);
-      this.appService.saveText(this.title + "test" + idmodal);
+      this.appService.saveText(this.title);
     }
 
     $("#"+this.idModal).modal("hide");
-    
+
   }
 
 }
