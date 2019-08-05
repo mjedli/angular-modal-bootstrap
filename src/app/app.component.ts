@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class AppComponent  {
   
   name = 'Angular';
-  text = 'The text';
+  text = 'The text 200';
 
   public showModal(text:String) {
     console.log(text);
