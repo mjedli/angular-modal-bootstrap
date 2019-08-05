@@ -11,7 +11,7 @@ export class AppComponent  {
   text = 'The text';
 
   public showModal(text:String) {
-    console.log(text);
+    console.log("showModal : the text value to input" : text);
     this.text = text;
   }
 
