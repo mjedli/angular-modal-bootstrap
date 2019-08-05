@@ -12,9 +12,9 @@ export class ModalComponent implements OnInit {
   constructor(public appService : AppService) { }
 
   @Input() title : String;
-  @Input() modalId : String;
   @Input() text : String;
 
+  @Input() modalId : String;
   @Input() closeLabel : String;
   @Input() saveLabel : String;
 
