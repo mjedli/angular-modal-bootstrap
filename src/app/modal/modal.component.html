@@ -9,12 +9,11 @@
         </button>
       </div>
       <div class="modal-body">
-        <p>Woohoo, you're reading this text in a modal!</p>
-        {{text}}
+        <p>{{text}}</p>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button (click)="closeModal(modalId)" type="button" class="btn btn-primary" onclick="">Save changes</button>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">{{closeLabel}}</button>
+        <button (click)="closeModal(modalId)" type="button" class="btn btn-primary" onclick="">{{saveLabel}}</button>
       </div>
     </div>
   </div>

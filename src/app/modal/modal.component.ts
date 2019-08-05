@@ -15,6 +15,9 @@ export class ModalComponent implements OnInit {
   @Input() modalId : String;
   @Input() text : String;
 
+  @Input() closeLabel : String;
+  @Input() saveLabel : String;
+
   ngOnInit() {
   }
 
